@@ -330,7 +330,8 @@ public class Lexer {
 
     //读取完文件的代码后，保存Tokens
     public void saveTokens() throws IOException {
-        FileWriter writer = new FileWriter("Tokens表.txt");
+//        FileWriter writer = new FileWriter("Tokens表.txt");
+        FileWriter writer = new FileWriter("输出.txt");
         writer.write("【单词的值】       【种别码】\n");//\r Mac \n Unix/Linux \r\n Windows
         writer.write("\r\n");
         String tok = tokens.toString();
