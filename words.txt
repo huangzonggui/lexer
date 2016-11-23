@@ -1,0 +1,25 @@
+所有的关键字
+【关键字】       【种别码】
+
+true					19
+int					55
+false					20
+to					15
+const					5
+end					16
+program					1
+bool					4
+real					7
+if					9
+while					12
+do					13
+read					17
+else					11
+for					14
+interger					3
+write					18
+then					10
+var					2
+char					6
+begin					8
+float					54
