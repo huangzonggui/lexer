@@ -215,7 +215,7 @@ public class Lexer {
             } while (Character.isDigit(peek));
 
             Num n = new Num(value);
-            tokens.put(n.toString(), 35);
+            tokens.put(n.toString(), Tag.CONSTANT);//常数
 //            return n;
             return null;
         }

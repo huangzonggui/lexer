@@ -27,6 +27,8 @@ public class Tag {
             WRITE = 18,
             TRUE = 19,
             FALSE = 20,
+            FLOAT = 54,
+            INT = 55,
     //运算符
     NOT = 21,
             AND = 22,
@@ -44,10 +46,11 @@ public class Tag {
     //标识符
     ID = 34,
     //常数
-    INTEGERCONSTANT = 35,//整常数
-            REALCONSTANT = 36,//实常数
-            CHARCONSTANT = 37,//字符常数
-            BOOLCONSTANT = 38,//布尔常数
+    CONSTANT = 35,
+//            INTEGERCONSTANT = 35,//整常数
+//            REALCONSTANT = 36,//实常数
+//            CHARCONSTANT = 37,//字符常数
+//            BOOLCONSTANT = 38,//布尔常数
     //界符
     ASSIGN = 39,/* = */
             SEMICOLON = 40,/* ; */
@@ -58,12 +61,5 @@ public class Tag {
             COLON = 45,/* : */
             LEFTBRACKET = 46,/* ( */
             RIGHTBRACKET = 47,/* ) */
-            FULLSTOP = 48,/* . */
-    //原有不知道干什么的？
-    NE = 49,/* != */
-            MINUS = 50,
-            TEMP = 51,
-            BASIC = 53,
-            FLOAT = 54,
-            INT = 55;
+            FULLSTOP = 48;/* . */
 }

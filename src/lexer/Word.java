@@ -34,9 +34,6 @@ public class Word extends Token {
             eq = new Word("==", Tag.EQ),
             lg = new Word("<>", Tag.LG),
 
-            //常数
-
-
             //界符
             e = new Word("=", Tag.ASSIGN),
             semicolon = new Word(";", Tag.SEMICOLON),
@@ -48,7 +45,4 @@ public class Word extends Token {
             leftBracket = new Word("(", Tag.LEFTBRACKET),
             rightBracket = new Word("(", Tag.RIGHTBRACKET),
             fullStop = new Word(".", Tag.FULLSTOP);
-//            ne = new Word("!=", Tag.NE),
-//            minus = new Word("minus", Tag.MINUS),
-//            temp = new Word("t", Tag.TEMP);
 }
