@@ -36,6 +36,7 @@ public class Word extends Token {
 
             //界符
             e = new Word("=", Tag.ASSIGN),
+            ee=new Word(":=",Tag.EE),
             semicolon = new Word(";", Tag.SEMICOLON),
             comma = new Word(",", Tag.COMMA),
             singleQuotes = new Word("\'", Tag.SINGLEQUOTES),

@@ -12,8 +12,7 @@ public class Main {
         while (lexer.getReaderState()==false) {
             lexer.scan();
         }
-
-        lexer.saveTokens();
+        lexer.saveToken();
         lexer.saveWords();
     }
 }

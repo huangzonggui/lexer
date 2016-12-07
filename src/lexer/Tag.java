@@ -6,6 +6,7 @@ package lexer;
  */
 public class Tag {
     public final static int
+            ERROR=-1,
             //关键字
             PROGRAM = 1,
             VAR = 2,
@@ -53,6 +54,7 @@ public class Tag {
 //            BOOLCONSTANT = 38,//布尔常数
     //界符
     ASSIGN = 39,/* = */
+    EE = 49,/* ：= */
             SEMICOLON = 40,/* ; */
             COMMA = 41,/* , */
             SINGLEQUOTES = 42,/* ' */
